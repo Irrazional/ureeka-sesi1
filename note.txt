@@ -6,3 +6,4 @@ git add
 git commit -> save
 git checkout -b [nama branch] : make new branch
 git status
+git branch: branch apa yang kita punya
