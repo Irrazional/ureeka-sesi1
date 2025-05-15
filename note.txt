@@ -1,9 +1,25 @@
-git clone
-git push
-git pull
-git merge
-git add
+git clone : clone sebuah project
+git push : push project dari local ke git
+git pull : ambil dari git ke local (dari branch yg dipilih)
+git merge :gabungin koding antar branch
+git add , add . , add all : menambahkan file yang mengalami perubahan, yang akan di stage utk di-commit (. atau all sebagai modifier)
 git commit -> save
 git checkout -b [nama branch] : make new branch
 git status
 git branch: branch apa yang kita punya
+
+urutan proses Project:
+git clone (repo)
+git checkout -b [branch] : main > dev > Login,Authen,CRUD,Dll
+    - git checkout [branch]
+    - git branch
+git status
+git add .
+git status
+git commit -m 'message dari perubahan (add/fix/update/remove [feature])'
+git status
+git push origin Login
+git merge Login
+git status
+git add . / commit
+git push main/dev
